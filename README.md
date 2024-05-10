@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Project description 
+
+This project is to practice React state and props, between parent and child component.  
+
+App is the parent of Navbar and Main component, the darkMode state is set in App as both Navbar and Main need to access it.  
+
+State values including function are passes from parent to children by props, child component can update state value in parent by trigger the passed function.  
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
