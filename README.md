@@ -4,7 +4,7 @@ This project is to practice React state and props, between parent and child comp
 
 App is the parent of Navbar and Main component, the darkMode state is set in App as both Navbar and Main need to access it.  
 
-State values including function are passes from parent to children by props, child component can update state value in parent by trigger the passed function.  
+State values including function can be passed from parent to children by props, child component can update state value in parent by trigger the passed function.  
 
 ## Getting Started with Create React App
 
