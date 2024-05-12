@@ -6,6 +6,8 @@ App is the parent of Navbar and Main component, the darkMode state is set in App
 
 State values including function can be passed from parent to children by props, child component can update state value in parent by trigger the passed function.  
 
+In useState() should NOT change the value directly, but should return a new value.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
